@@ -64,6 +64,7 @@ h3{
     color: #fff;
     border-radius: 30px;
     margin-top: 50px;
+    text-decoration: none;
 }
  /*===============
     second section 
@@ -106,6 +107,13 @@ h3{
     text-align: right;
     margin-top: 20px;
  
+}
+.extra-part{
+    display: flex;
+}
+.responsive img{
+    width: 80%;
+    border-radius: 10px;
 }
 /*---------------
   Footer starts
@@ -165,6 +173,9 @@ footer{
     }
     .collection{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .extra-part{
+        flex-direction: column;
     }
 }
 @media (max-width:700px) {
