@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*-------------
+   Navigation
+--------------*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/*-----------------
+  first Section
+------------------*/
+h1{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+.banner{
+    display: flex;
+    gap: 100px
+}
+.left-banner{
+    margin-top: 80px;
+
+}
+.left-banner a{
+    text-decoration: none;
+}
+.right-banner{
+    background-image: url(images/Circle\ design.svg);
+    margin-top: 20px;
+}
+.primary-button{
+    background-color: #e83a59;
+    font-weight: 400;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+ /*===============
+    second section 
+  ===============*/
+ .section-title{
+     text-align: center;
+ }
+.ratings{
+    color: #fb8200;
+}
+.rating-point{
+    color: #5e6366;
+    font-weight: 700;
+}
+.product-info{
+    color: #787885;
+    font-weight: 700;
+}
+.product{
+    box-shadow: 0px 0px 8px gray;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.next-items a{
+    text-decoration: none;
+    color: #e83a59;
+    font-weight: 700;
+}
+.next-items{
+    text-align: right;
+    margin-top: 20px;
+ 
+}
+/*---------------
+  Footer starts
+----------------*/
+footer{
+    width: 100%;
+    background-color: #0a0826;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+
+}
+.footer-title{
+    color: #ffff;
+}
+.footer-content{
+    color: #ffff;
+    font-size: 20px;
+}
+.font-icon a{
+    color: #ffff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+ /*--------------
+   footer end
+---------------*/
